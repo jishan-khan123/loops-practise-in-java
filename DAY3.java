@@ -1,8 +1,20 @@
 import java.util.Scanner;
 
 public class day3 {
+
+
+
+     static int print1(int n) {
+        if (n==0) {
+            return 0;
+        }
+
+        return n + print1(n-1);
+    }
     public static void main(String[] args) {
-        
+        System.out.println(print1(5));
+  /*       
+
         int a =8;
         float b= 4.45454f;
         char k = 'j';
@@ -44,12 +56,15 @@ i++;
 
 }
 System.out.println("hello !");
-    
+*/ 
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
     }
 
